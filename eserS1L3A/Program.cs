@@ -67,7 +67,7 @@
 
                         case 'd':
                         case 'D':
-                            Console.Write("Quanto vuoi prelevare?: ");
+                            Console.Write("Quanto vuoi versare?: ");
                             amount = int.Parse(Console.ReadLine());
                             totalMoney = conto.Versamento(amount);
                             Console.WriteLine($"Al momento il tuo saldo è di ${totalMoney} euro");
